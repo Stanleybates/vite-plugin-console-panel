@@ -1,0 +1,32 @@
+{
+  "name": "vite-plugin-console-panel",
+  "version": "0.1.1",
+  "description": "A Vite plugin that injects a mobile-friendly console/network/elements devtools panel into your dev server — automatically, dev-only, zero file edits to your project.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/panel-script.js"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "vite": ">=4.0.0"
+  },
+  "keywords": [
+    "vite-plugin",
+    "devtools",
+    "mobile",
+    "debug",
+    "console"
+  ],
+  "license": "MIT",
+  "author": "",
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5"
+  }
+}
